@@ -10,9 +10,7 @@ train:
 	python train.py
 
 clean:
-	rm -rf logs/*
 	rm -rf models/*
-	rm -rf data/*
 	rm -rf __pycache__
 	rm -rf .pytest_cache
 	find . -type d -name "__pycache__" -exec rm -r {} +
